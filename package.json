@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "name": "e-commerce-back-end",
+  "description": "Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aahashwani/E-commerce-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aahashwani/E-commerce-back-end/issues"
+  },
+  "homepage": "https://github.com/aahashwani/E-commerce-back-end#readme"
+}
